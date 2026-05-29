@@ -1,0 +1,16 @@
+fastapi
+uvicorn
+sqlalchemy
+sqlmodel
+pydantic
+requests
+beautifulsoup4
+jsbeautifier
+tldextract
+python-multipart
+python-dotenv
+httpx
+pyyaml
+validators
+asyncio
+aiohttp
