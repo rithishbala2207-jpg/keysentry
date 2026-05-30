@@ -46,7 +46,7 @@ const ScanPage = () => {
         setCurrentStep(0);
 
         try {
-            const response = await axios.post('http://localhost:8000/scan?url=' + encodeURIComponent(url));
+            const response = await axios.post('https://keysentry-2.onrender.com/scan?url=' + encodeURIComponent(url));
             const scanId = response.data.id;
             
             // Finish progress

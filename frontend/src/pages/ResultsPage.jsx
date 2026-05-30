@@ -89,7 +89,7 @@ const ResultsPage = () => {
     useEffect(() => {
         const fetchResults = async () => {
             try {
-                const response = await axios.get(`http://localhost:8000/scan/${id}`);
+                const response = await axios.get(`https://keysentry-2.onrender.com/scan/${id}`);
                 if (!response.data || response.data.error) {
                     throw new Error(response.data?.error || "Failed to load scan results.");
                 }

@@ -14,7 +14,7 @@ const HistoryPage = () => {
     useEffect(() => {
         const fetchScans = async () => {
             try {
-                const response = await axios.get('http://localhost:8000/scans');
+                const response = await axios.get('https://keysentry-2.onrender.com/scans');
                 setScans(response.data);
                 setLoading(false);
             } catch (error) {
