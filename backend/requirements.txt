@@ -14,3 +14,5 @@ pyyaml
 validators
 asyncio
 aiohttp
+uvicorn
+gunicorn
